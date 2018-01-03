@@ -1,0 +1,79 @@
+
+title: Use Cases
+
+-
+
+subtitle: Use Cases
+
+-
+
+page-content:
+
+
+PNDA supports an unlimited set of use cases for network data analytics.<br>
+Here are a few examples of uses cases implemented with PNDA today.
+
+-
+
+paris-iot-header:
+
+## Smart Cities
+ 
+
+-
+
+paris-iot:
+
+
+Cisco and the Ville de Paris are working together to transform the Place de la Nation into a vision of the future of smart cities. Smart sensors that monitor noise, air quality, temperature and humidity have been connected using Cisco Wi-Fi access points, and smart cameras are used to monitor the flow of cars, bicycles and pedestrians. Cisco uses PNDA to aggregate all these data streams, with live dashboards that help the city understand what's happening every minute of the day.
+
+-
+
+psm-header: 
+
+## Cable plant anomaly detection for Predictive Service Management
+ 
+
+-
+
+psm:
+
+Cable modems can deliver domestic broadband internet with speeds over 100 Mbps, but poor signal quality can degrade performance significantly. The latest cable modems can now quantify signal interference, allowing the service provider to transmit a modified waveform that counteracts the interference. The Predictive Service Management (PSM) project uses PNDA to model the quality of service of thousands of modems deployed in the field, and can even predict future service outages so they can be fixed before they occur. Similar approaches can be applied in other access environments, such as ADSL.
+
+-
+
+ioam-header: 
+
+## Path Anomaly detection using in-band OAM
+ 
+
+-
+
+ioam:
+
+OAM (Operations, Administration, and Maintenance) is a set of functions designed to monitor network operation in order to detect network faults and measure its performance. iOAM (in-band OAM) technology promises enhanced manageability and simplified operations for service-layer networks. This video demonstrates iOAM data published into Kafka and analyzed for anomalies using a PNDA Spark application. The app detects anomalies (in this case, path changes) and publishes each anomaly as a topic in Kafka. Both raw iOAM data published into kafka and the anomaly events are then visualized using the <a href="http://elastic.co/products">ELK Stack</a>.
+
+-
+
+gilan-header: 
+
+## GiLAN Service Assurance
+ 
+
+-
+
+gilan:
+
+Service providers need tools to monitor the quality of their data services, to make sure that they are in compliance with service-level agreements (SLAs). The GiLAN project offers service providers real-time service assurance, using PNDA as a data collection backbone. All syslogs and SNMP events are captured using Logstash, fed into the Kafka data distribution bus, and consumed by Moogsoft's <a href="https://www.moogsoft.com/product/">Incident.Moog</a> data analysis and presentation package. Similarly, topology change and orchestration events are consumed by <a href="https://www.ontology.com/products/#real-time/">Ontology’s Real-Time Inventory</a>. When a fault occurs in the virtual or physical infrastructure, events are collected using PNDA and displayed as situations (clusters of alerts) in Incident.Moog and correlated to the Real-Time Topology tracked and visualized by Ontology. Ontology.com provides a real-time inventory from the orchestration and control stack, which can provide context for the analytics applications on PNDA.
+-
+
+console-header: 
+
+## PNDA Console
+ 
+
+-
+
+console:
+
+The PNDA console provides a real-time overview of all the components in a PNDA cluster. The home page shows health statistics of various different components which make up PNDA. Components are grouped into categories, including data distribution, data processing, data storage, applications, etc. Other pages in the console let you monitor real-time metrics, deploy packages, launch applications, and manage data retention limits. 

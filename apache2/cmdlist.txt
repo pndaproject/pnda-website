@@ -1,0 +1,26 @@
+sudo apt-get install php5-cli
+sudo apt-get install apache2
+sudo apt-get install libapache2-mod-php5
+sudo apt-get install php5-gd
+
+cp pnda.conf /etc/apache2/sites-available
+cp pnda-staging.conf /etc/apache2/sites-available
+
+add listen 8080 to ports.conf if staging in use
+
+sudo a2dissite 000-default.conf
+sudo a2ensite pnda.conf
+sudo a2ensite pnda-staging.conf
+
+sudo a2enmod rewrite
+sudo a2enmod headers
+
+Edit
+/etc/php5/apache2/php.ini
+/etc/php5/cgi/php.ini
+
+and set expose_php to Off
+
+Add the lines from extra_apache2.conf at the end of /etc/apache2/apache2.conf
+
+Then restart: sudo service apache2 restart

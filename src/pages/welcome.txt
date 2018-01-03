@@ -1,0 +1,236 @@
+title: Home
+
+-
+
+welcome-line-1: <br><br>
+
+-
+
+welcome-line-2: PNDA
+
+-
+
+welcome-line-3: Platform for Network Data Analytics
+
+-
+
+vision-short-title: Vision
+
+-
+
+vision-short-detail: The scalable, open source<br>big data analytics platform<br>for networks and services.
+
+-
+
+page-intro-title: 
+
+-
+
+feature-1-title: Open Architecture
+
+-
+
+feature-1-detail: Open platform for data aggregation, distribution and processing
+
+-
+feature-1-icon: fa fa-cogs
+
+-
+
+feature-2-title: Extensible
+
+-
+
+feature-2-detail: Add new analysis functions quickly and seamlessly with minimum development cost
+
+-
+
+feature-2-icon: fa fa-puzzle-piece
+
+-
+
+feature-3-title: Big Data Innovation
+
+-
+
+feature-3-detail: Leverage rapid innovation in the big data analytics space
+
+-
+
+feature-3-icon: fa fa-dashboard
+
+-
+
+feature-4-title: Scalable
+
+-
+
+feature-4-detail: Horizontally scalable platform for analytics and data processing applications
+
+-
+
+feature-4-icon: fa fa-signal
+
+-
+
+feature-5-title: Proven solutions
+
+-
+
+feature-5-detail: Leverages current best practices for big data infrastructure
+
+-
+
+feature-5-icon: fa fa-thumbs-up
+
+-
+
+feature-6-title: Maximise Insight
+
+-
+
+feature-6-detail: Decouple data aggregation from data analysis
+
+-
+
+feature-6-icon: fa fa-eye
+
+-
+
+link-1-title: About
+
+-
+
+link-1-detail: Find out about the features and benefits of PNDA, how it works, and what it can do for you.
+
+-
+
+link-1-link: overview/
+
+-
+
+link-1-icon: fa fa-info-circle
+
+-
+
+link-2-title: Use Cases
+
+-
+
+link-2-detail: Discover how PNDA is being used out in the real world right now to analyze large datasets and get stuff done.
+
+-
+
+link-2-link: usecases/
+
+-
+
+link-2-icon: fa fa-connectdevelop
+
+-
+
+link-3-title: Guide
+
+-
+
+link-3-detail: Learn how to deploy PNDA, get data flowing in, explore data with notebooks, and develop analytics apps.
+
+-
+
+link-3-link: guide/
+
+-
+
+link-3-icon: fa fa-book
+
+-
+
+link-4-title: GitHub
+
+-
+
+link-4-detail: All the PNDA source code is hosted on GitHub. Fork the project to get started contributing! 
+
+-
+
+link-4-link: github/
+
+-
+
+link-4-icon: fa fa-github
+
+-
+
+link-5-title: Q&A
+
+-
+
+link-5-detail: Got a question about setting up and using PNDA? Ask it here and get answers from the PNDA team.
+
+-
+
+link-5-link: qa/
+
+-
+
+link-5-icon: fa fa-question
+
+-
+
+link-6-title: Guide
+
+-
+
+link-6-detail: Learn how to deploy PNDA, get data flowing in, explore data with notebooks, and develop analytics apps.
+
+-
+
+link-6-link: guide/
+
+-
+
+link-6-icon: fa fa-book
+
+-
+
+link-6-title: News
+
+-
+
+link-6-detail: PNDA is moving fast! Get the latest PNDA news, including press releases and a calendar of events.
+
+-
+
+link-6-link: news/
+
+-
+
+link-6-icon: fa fa-newspaper-o
+
+-
+
+link-7-title: Contact
+
+-
+
+link-7-link: contact/
+
+-
+
+link-7-icon: fa fa-envelope
+
+-
+
+link-8-title: Twitter
+
+-
+
+link-8-icon: fa fa-twitter
+
+-
+
+link-8-link: https://twitter.com/pndaproject
+
+-
+
+

@@ -1,0 +1,355 @@
+title: About
+
+-
+
+top_left: <br>
+![console](/pages/images/console.png)
+
+-
+
+top_right: <h2>What is PNDA?</h2>
+<div class="overviewlist" markdown=1>
+- Open source <u>P</u>latform for <u>N</u>etwork <u>D</u>ata <u>A</u>nalytics
+- Aggregates data like logs, metrics and network telemetry
+- Scales up to consume millions of messages per second
+- Efficiently distributes data with publish and subscribe model
+- Processes bulk data in batches, or streaming data in real-time
+- Manages lifecycle of applications that process and analyze data
+- Lets you explore data using interactive notebooks
+</div>
+
+-
+
+title1: Scalable analytics platform
+-
+text1: Innovation in the big data space is extremely rapid, but combining multiple technologies into an end-to-end solution can be extremely complex and time-consuming. The vision of PNDA is to remove this complexity and allow you to focus on your solution. PNDA brings together a number of open source technologies to provide a simple, scalable big data analytics platform.
+-
+image1: 1-platform.jpg
+
+-
+
+title2: Principles and benefits
+-
+text2: Today, big data analytics architectures typically consist of a number of discrete solutions integrated in silos with collections of data sources. PNDA offers an innovative approach to collecting, processing and analyzing big data. It has a streamlined data pipeline that makes it easy to surface the right data at the right time. 
+-
+image2: 2-pipeline.jpg
+
+-
+
+title3: Decoupling sources from applications
+-
+text3: By decoupling data sources from data consumers, you can integrate data sources once, then make data available for any application to process. Platform apps can perform horizontally scalable data processing, while client apps can use one of several structured query interfaces or consume streams directly.
+-
+image3: 3-decouple.jpg
+
+-
+
+title4: Taking a big data approach
+-
+text4: PNDA is inspired by modern big data architecture patterns. It stores data in the rawest form possible, for as long as possible, in a resilient, distributed file system. You don't need to force your data into a domain-specific schema, or throw away data that could be valuable for use cases you haven't thought of yet.
+-
+image4: 4-bigdata.jpg
+
+-
+
+title5: Stream and batch processing
+-
+text5: PNDA provides the tools to process near real-time streaming data, and to perform in-depth batch analysis on massive datasets. This lets you gain insight into what is happening right now, and keep up with changes in context while determining longer-term trends.
+-
+image5: 5-processing.jpg
+
+-
+
+title6: Scale and extend
+-
+text6: PNDA is built entirely from scalable, open technologies. You can start small, and then grow a cluster horizontally as demand increases. As innovation in the big data industry moves forward, we are able to bring you the latest advances in performance, security and high availability.
+-
+image6: 6-scale.jpg
+
+-
+
+title7: Simplify and accelerate
+-
+text7: There are a bewildering number of big data technologies out there, so how do you decide what to use? We've evaluated and chosen the best tools, based on technical capability and community support. PNDA combines them with interactive notebooks and application management to streamline the process of developing data processing applications.
+-
+image7: 7-accelerate.jpg
+
+-
+
+title8: Data ingress
+-
+text8: PNDA uses <a href="http://kafka.apache.org/">Kafka</a> producers to process vast amounts of streaming data. It's pre-configured to ingest data from <a href="https://www.elastic.co/products/logstash">Logstash</a> and <a href="https://wiki.opendaylight.org/">OpenDaylight</a>, or you can adapt our sample code to build your own producers in a variety of languages. Do you need to analyze large amounts of data for a particular event? You can process it using our bulk ingest tool.
+-
+image8: 8-ingress.jpg
+
+-
+
+title9: Data distribution
+-
+text9: PNDA uses <a href="http://kafka.apache.org/">Kafka</a> and <a href="http://zookeeper.apache.org/">Zookeeper</a> for high velocity data distribution. Kafka consumer applications can consume data directly, or you can create your own toolchain with modular apps that process data, then add it to Hadoop or return it to Kafka.
+-
+image9: 9-distribution.jpg
+
+-
+
+title10: High-volume batch processing
+-
+text10: PNDA leverages <a href="http://spark.apache.org">Apache Spark</a> for petabyte-scale batch processing and deep historical insight into data. You can write apps in Java or Scala and deploy them to process data in your PNDA cluster.
+-
+image10: 10-batch.jpg
+
+-
+
+title11: High-velocity stream processing
+-
+text11: With <a href="http://spark.apache.org/streaming/">Apache Spark Streaming</a>, PNDA lets you process real-time streaming data the same way you process batch data. You can write your business logic once, and decide later whether to process data in batches or streams.
+-
+image11: 11-stream.jpg
+
+-
+
+title12: Free-form data exploration
+-
+text12: To help you better understand your data, PNDA integrates <a href="http://jupyter.org">Jupyter Notebook</a>, a web-based application that enables free-form, interactive data exploration. You can load data from the distributed file system, run experiments in batch mode, generate graphs on-the-fly, and rapid prototype big data applications.
+-
+image12: 12-exploration.jpg
+
+-
+
+title13: Structured query over big data
+-
+text13: Processed data can be stored in the <a href="http://hadoop.apache.org/">HDFS</a> distributed file system or the <a href="https://hbase.apache.org/">HBase</a> NoSQL database. <a href="http://impala.io">Impala</a> presents a standard SQL interface to these big data systems, allowing a wide range of business intelligence apps to pull data out of PNDA.
+-
+image13: 13-query.jpg
+
+- 
+
+title14: Handling time series
+-
+text14: Analytics apps often need to process, store and display huge amounts of time series data.
+PNDA uses <a href="http://opentsdb.net/">OpenTSDB</a> to store time series data, and <a href="http://grafana.org">Grafana</a> to create rich and engaging dashboards.
+
+-
+image14: 14-timeseries.jpg
+
+-
+
+logo-link-1: https://avro.apache.org
+-
+logo-img-1: avro.png
+
+-
+
+logo-link-2: https://www.cloudera.com/products/cloudera-manager.html
+-
+logo-img-2: cloudera.png
+
+-
+
+logo-link-3: https://github.com/linkedin/gobblin
+-
+logo-img-3: gobblin.png
+
+-
+
+logo-link-4: http://grafana.org
+-
+logo-img-4: grafana.png
+
+-
+
+logo-link-5: https://hbase.apache.org/book.html
+-
+logo-img-5: hbase.png
+
+-
+
+logo-link-6: http://hadoop.apache.org
+-
+logo-img-6: hdfs.png
+
+-
+
+logo-link-7: https://wiki.openstack.org/wiki/Heat
+-
+logo-img-7: heat.png
+
+-
+
+logo-link-8: http://www.cloudera.com/documentation/archive/cdh/4-x/4-2-0/CDH4-Installation-Guide/cdh4ig_topic_18_4.html
+-
+logo-img-8: hive.png
+
+-
+
+kafka-tooltip: 
+
+Apache Kafka is a high-throughput, distributed, publish-subscribe messaging system. Is used to collect data ready for processing. It decouples data aggregation (publishers) from data analysis (consumers), allowing any application to consume data present on Kafka.
+
+- 
+
+zookeeper-tooltip:
+
+Apache Zookeeper provides an open source distributed configuration service, synchronization service, and naming registry for large distributed systems. It is used by Kafka for coordination of its distributed operation, to track leadership and to store topic metadata.
+
+-
+
+spark-tooltip:
+
+Apache Spark is a framework and engine for distributed, large scale data processing. PNDA uses Spark for batch processing large amounts of offline data.
+  
+-
+
+spark-streaming-tooltip: 
+
+Apache Spark is a framework and engine for distributed, large scale data processing. PNDA uses Spark Streaming for processing high-velocity data in real-time. 
+        
+- 
+
+oozie-tooltip:
+
+Apache Oozie is a workflow scheduler system to manage Apache Hadoop jobs. In PNDA, batch mode Spark jobs are run on a regular schedule by Oozie.
+
+-
+
+yarn-tooltip:
+
+Apache Hadoop YARN (Yet Another Resource Negotiator) is a cluster management technology. It coordinates running of jobs and their component tasks on a cluster, allocating memory and cores to those tasks. This component shows the amount of memory used, and the number of virtual cores used.
+
+-
+
+impala-tooltip:
+
+Apache Impala is a parallel execution engine for SQL queries. It supports low-latency access and interactive exploration of data in HDFS and HBase. Impala allows data to be stored in a raw form in HDFS and HBase, with aggregation performed at query time without requiring upfront aggregation of data.
+
+-
+
+hbase-tooltip:
+
+HBase is a distributed, scalable key-value data store, designed for fast, random access to very large data sets, i.e. millions of columns and billions of rows. In PNDA, a custom application (reading data from Kafka or HDFS for example) could write arbitrary key/value data into HBase.
+
+-
+ 
+hive-tooltip:
+
+The Hive metastore service stores the metadata for Hive tables and partitions in a relational database, and provides clients access to this information via the metastore service API. In PNDA, the Hive metastore sits on top of HDFS to provide a relational schema mapping that allows data to be queried through Impala.
+
+-
+
+hdfs-tooltip:
+
+HDFS is a fault tolerant and self-healing distributed file system, suited to large-scale data processing workloads. In PNDA, gobblin runs every half an hour to copy all data from Kafka into the master dataset in HDFS. The master dataset is a historical store of all data. Applications can also output data in HDFS.
+
+-
+
+deployment-manager-tooltip:
+
+The deployment manager manages packages and applications on PNDA. Packages are archives containing the program binaries and configuration files for a specific task. Applications instances are created from packages.
+
+- 
+
+jupyter-tooltip: 
+
+Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. PNDA uses Jupyter to let you explore and interact with large datasets. 
+
+- 
+
+opentsdb-tooltip:
+
+OpenTSDB is a scalable time series database that can store and serve massive amounts of time series data without losing granularity. 
+
+-
+
+grafana-tooltip:
+
+Grafana provides a powerful and elegant way to create, explore, and share dashboards and data with your team and the world. In PNDA, Grafana is used for visualizing time series data. 
+
+-
+
+logo-link-9: http://gethue.com
+-
+logo-img-9: hue.png
+
+-
+
+logo-link-10: http://impala.io
+-
+logo-img-10: impala.png
+
+-
+
+logo-link-11: http://jupyter.org
+-
+logo-img-11: jupyter.png
+
+-
+
+logo-link-12: http://kafka.apache.org
+-
+logo-img-12: kafka.png
+
+-
+
+logo-link-13: https://www.elastic.co/products/kibana
+-
+logo-img-13: kibana.png
+
+-
+
+logo-link-14: https://www.elastic.co/products/logstash
+-
+logo-img-14: logstash.png
+
+-
+
+logo-link-15: https://nodejs.org
+-
+logo-img-15: nodejs.png
+
+-
+
+logo-link-16: https://oozie.apache.org
+-
+logo-img-16: oozie.png
+
+-
+
+logo-link-17: https://wiki.opendaylight.org
+-
+logo-img-17: opendaylight.png
+
+-
+logo-link-18: https://www.openstack.org
+-
+logo-img-18: openstack.png
+
+-
+
+logo-link-19: http://opentsdb.net
+-
+logo-img-19: opentsdb.png
+
+-
+
+logo-link-20: https://docs.saltstack.com/
+-
+logo-img-20: saltstack.png
+
+-
+
+logo-link-21: http://spark.apache.org
+-
+logo-img-21: spark.png
+
+-
+
+logo-link-22: http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html
+-
+logo-img-22: yarn.png
+
+-
+
+logo-link-23: http://zookeeper.apache.org
+-
+logo-img-23: zookeeper.png
+

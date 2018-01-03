@@ -1,0 +1,26 @@
+/* Mixins */
+
+.border-radius(@radius, @corner: -) {
+-webkit-border@{corner}radius: @radius;
+   -moz-border@{corner}radius: @radius;
+	border@{corner}radius: @radius;
+}
+
+.box-shadow(@x: 0; @y: 0; @blur: 0; @spread: 0; @color: #000) {
+-webkit-box-shadow+: @arguments;
+   -moz-box-shadow+: @arguments;
+	box-shadow+: @arguments;
+}
+
+.font-face(@family; @file; @weight; @style) {
+	font-family: '@{family}';
+	src: url('../fonts/@{file}.woff') format('woff'), url('../fonts/@{file}.ttf') format('truetype');
+	font-weight: @weight;
+	font-style: @style;
+}
+
+.gradientBackground(@color1:rgba(0,0,0,0.05), @percentage1:0%, @color2:rgba(0,0,0,0), @percentage2:100%) {
+    background: -moz-linear-gradient(top, @color1 @percentage1, @color2 @percentage2); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, @color1 @percentage1,@color2 @percentage2); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, @color1 @percentage1,@color2 @percentage2); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

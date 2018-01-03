@@ -1,0 +1,66 @@
+title: News
+
+-
+
+subtitle: News
+
+-
+
+coming-up:
+
+
+## Coming Up
+
+<div class="container-fluid no-padding">
+    <div class="container">
+        <a href="https://indico.uknof.org.uk/event/38/" target="UKNOF">
+            <div class="row row-shadow future-event">
+                <div class="image-box left padding-top">
+                   <img src="../images/news/uknof36-25pc.png" width="360">
+                </div>
+                <div class="text-box">
+                    <h1>UKNOF36</h1>
+                    <h5>London - January 19, 2017</h5>
+                    Team PNDA will be presenting on how big data analytics is transforming OSS at UKNOF36.
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid no-padding">
+    <div class="container">
+        <a href="http://www.ciscolive.com/emea/" target="ciscolive">
+            <div class="row row-shadow future-event">
+                <div class="image-box left">
+                   <img src="../images/news/Cisco-Live-Berlin-Tower-Glitter-585px.gif" width="360" height="240">
+                </div>
+                <div class="text-box">
+                    <h1>Cisco Live Berlin</h1>
+                    <h5>February 20-24, 2017</h5>
+                    Please stop by our booth in the DevNet zone to catch-up on the latest work on the platform. We'll also be showing examples of network and IoT analytics apps that are pnda-powered!
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+-
+
+past-events:
+
+
+## Past Events
+
+**<a href="http://www.ciscolive.com/us/" target="ciscolive"><img src="../images/news/cisco-live-lasvegas-2016.png" class="past-event" /></a><br><br>
+<a href="http://www.ciscolive.com/us/" target="ciscolive">Cisco Live Las Vegas</a>**<br>
+July 10-14, 2016<br>
+DevNet Zone
+
+-
+
+press-releases:
+
+## Press Releases
+
+SAN FRANCISCO – August 16, 2016 – <a href="/launch">The Linux Foundation Announces Big Data Platform for Network Analytics</a>

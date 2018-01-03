@@ -1,0 +1,58 @@
+nav ul > ul  {
+    list-style: none;
+}
+nav ul > ul > li:before {
+  content: '» \0000a0';
+  font-size: 1.2em;
+  font-weight: bold;
+}
+nav ul > ul > li > ul {
+    list-style: none;
+    display: none;
+    transition: opacity 0.3s;
+}
+
+.out {
+    opacity: 0;
+}
+.in {
+    opacity: 1;
+}
+
+.collapsibleFaqList > ul {
+  list-style: none;
+  cursor:auto;
+}
+
+li.collapsibleListOpen:before{
+  content: '- \0000a0';
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+li.collapsibleListClosed:before{
+  content: '+ \0000a0';
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.collapsibleFaqList > ul > li > ul {
+    list-style: none;
+    display: none;
+}
+
+div.logo {
+	display: inline-block;
+	width: 200px;
+	margin: 20px 50px;
+}
+
+img.logo {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 120px;
+}
+

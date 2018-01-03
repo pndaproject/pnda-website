@@ -1,0 +1,74 @@
+title: GitHub
+
+-
+
+direct-link: https://github.com/pndaproject
+
+-
+
+direct-link-tab-name: github
+
+-
+
+subtitle: GitHub
+
+-
+
+text:
+
+-
+
+page-content:
+
+The [PNDA distribution](https://github.com/pndaproject) is available on GitHub, and consists of the following source code repositories and sub-projects.
+
+To get started setting up your own PNDA cluster, see the [getting started](../../guide/#gettingstarted) page in the guide.
+
+## Provisioning
+
+ * [platform-salt](https://github.com/pndaproject/platform-salt/): provisioning logic for creating PNDA
+ * [platform-salt-cloud](https://github.com/pndaproject/platform-salt-cloud/): cluster templates for creating PNDA with salt-cloud
+ * [pnda-heat-templates](https://github.com/pndaproject/pnda-heat-templates/): cluster templates for creating PNDA with Heat
+ * [pnda-aws-templates](https://github.com/pndaproject/pnda-aws-templates/): cluster templates for creating PNDA with AWS
+ * [pnda-dib-elements](https://github.com/pndaproject/pnda-dib-elements/): tools for building disk image templates
+
+## Platform
+
+ * [platform-libraries](https://github.com/pndaproject/platform-libraries/): libraries for working with interactive notebooks
+ * [platform-tools](https://github.com/pndaproject/platform-tools/): tools for operating a cluster
+     * [bulkingest](https://github.com/pndaproject/platform-tools/tree/master/bulkingest/): tools for performing a bulk ingest of data
+ * [platform-console-frontend](https://github.com/pndaproject/platform-console-frontend/): “single pane of glass” giving operational overview and access to application and data management functions
+ * [platform-console-backend](https://github.com/pndaproject/platform-console-backend/): APIs that provide data to the console frontend
+   * [console-backend-data-logger](https://github.com/pndaproject/platform-console-backend/tree/master/console-backend-data-logger/): APIs to ingest data
+   * [console-backend-data-manager](https://github.com/pndaproject/platform-console-backend/tree/master/console-backend-data-manager/): APIs to provide data
+ * [platform-testing](https://github.com/pndaproject/platform-testing/): modules that test both the end to end platform and individual components and collect metrics
+ * [platform-deployment-manager](https://github.com/pndaproject/platform-deployment-manager/): API to manage packages and application deployment and lifecycle
+ * [platform-data-mgmnt](https://github.com/pndaproject/platform-data-mgmnt/): tools to manage data retention
+   * [data-service](https://github.com/pndaproject/platform-data-mgmnt/tree/master/data-service/): API to set data retention policies
+   * [hdfs-cleaner](https://github.com/pndaproject/platform-data-mgmnt/tree/master/hdfs-cleaner/): cron job to clean up HDFS data
+   * [oozie-templates](https://github.com/pndaproject/platform-data-mgmnt/tree/master/oozie-templates/): templates that archive or delete data
+ * [platform-package-repository](https://github.com/pndaproject/platform-package-repository/): manages a simple package repository backed by OpenStack Swift
+
+## Forked projects
+
+ * [gobblin](https://github.com/pndaproject/gobblin/): customized fork of the Gobblin data ingest framework
+
+## Producers
+
+ * [prod-odl-kafka](https://github.com/pndaproject/prod-odl-kafka/): plugin to ingest data from OpenDaylight
+ * [prod-logstash-codec-avro](https://github.com/pndaproject/prod-logstash-codec-avro/): plugin to ingest data from Logstash
+
+## Examples
+
+ * [example-spark-batch](https://github.com/pndaproject/example-spark-batch/): example batch data processing application
+ * [example-spark-streaming](https://github.com/pndaproject/example-spark-streaming/): example streaming data processing application
+ * [example-jupyter-notebooks](https://github.com/pndaproject/example-jupyter-notebooks/): examples for working with Jupyter notebooks
+ * [example-kafka-clients](https://github.com/pndaproject/example-kafka-clients/): examples for working with kafka clients
+   * [java](https://github.com/pndaproject/example-kafka-clients/tree/master/java/)
+   * [php](https://github.com/pndaproject/example-kafka-clients/tree/master/php/)
+   * [python](https://github.com/pndaproject/example-kafka-clients/tree/master/python/)
+ * [example-kafka-spark-opentsdb-app](https://github.com/pndaproject/example-kafka-spark-opentsdb-app/): example consumer that feeds data to OpenTSDB
+
+## Documentation
+
+ * [pnda-guide](https://github.com/pndaproject/pnda-guide/): technical documentation for the PNDA project

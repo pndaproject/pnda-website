@@ -1,0 +1,80 @@
+title: launch
+
+-
+
+hidden: true
+
+-
+
+subtitle: Press Release
+
+-
+
+pr-lf-august-2016:
+
+### The Linux Foundation Announces Big Data Platform for Network Analytics
+<p><i>PNDA creates end-to-end solution for deploying analytics applications and services</i></p>
+<br>
+<p><b>SAN FRANCISCO – August 16, 2016 – </b>The <a href="https://www.linuxfoundation.org/">Linux Foundation</a>, the nonprofit advancing professional open source management for mass collaboration today is announcing <a href="http://pnda.io">PNDA</a>, a new Linux Foundation Project. PNDA provides an open source, scalable platform for next-generation network analytics. The project has also announced the availability of its initial platform release.</p>
+<p>Early support for PNDA includes <a href="http://www.cisco.com/">Cisco</a>, <a href="http://www.deepfield.com/">Deepfield</a>, <a href="https://frinx.io">FRINX</a>, <a href="https://www.intersec.com/">Intersec</a>, <a href="https://www.moogsoft.com/">Moogsoft</a>, <a href="http://www.ngena.net/">NGENA</a>, <a href="https://www.ontology.com/"> Ontology</a>, <a href="https://www.opendatasoft.com/">OpenDataSoft</a> and <a href="http://tupl.io/">Tupl</a>.</p>
+<p>PNDA aims to eliminate complexity by integrating, scaling and managing a rich set of open data processing technologies and provides an end-to-end platform for deploying analytics applications and services. The design of PNDA is based on next-generation, big data architecture patterns. It supports batch and real-time streaming data exploration and analysis, at the scale of millions of messages per second.</p>
+<p>“The adoption of open source software has transformed the networking industry by reducing technology fragmentation and increasing user adoption,” said Jim Zemlin, executive director, The Linux Foundation. “PNDA addresses a critical need for a scalable platform that fosters innovation in reactive network analytics for both service providers and enterprises.”</p>
+<br>
+<p><b>Initial Release Features</b></p>
+<p>Cisco is contributing code to enable end-to-end platform provisioning and management, application packaging, and deployment. The initial release of PNDA is fully functional and <a href="https://github.com/pndaproject">available for download</a> as a production-ready solution on OpenStack-based platforms. Support for bare-metal and public-cloud provisioning is expected later this year.</p>
+<p>Future contributions from the open source community are expected to extend and innovate upon PNDA’s capabilities, including Hadoop distribution independence, platform infrastructure validation, container support, additional data publishers, and deep-learning framework integration, among others.</p>
+<p>PNDA also complements major open source software defined networking, network functions virtualization, and network orchestration efforts such as OpenDaylight, Open Platform for NFV (OPNFV), and FD.io. There is also synergy with the Open Data Platform initiative (ODPi), which defines a common runtime specification, reference implementation and test suite for Hadoop-based distributions, including PNDA.</p>
+<br>
+<p><b>Comments from Supporting Organizations</b></p>
+
+<p><b>Cisco</b><br>
+“There have been significant efforts across the industry in NFV, automation, orchestration and control which have made real-time network service provisioning possible. Open source software implementations supporting this space are also maturing as shown by OpenStack and OpenDaylight. In comparison, industry efforts to enable the monitoring and analysis of the data produced by these services have been lagging behind. If we’re really going to move the industry forward and enable new services and new business models, where agility is a reality rather than a marketing buzzword, then OSS, BSS &amp; IoT solutions all need to become more agile too. We believe that the solution is to leverage the rapid innovation in big data analytics; that’s the reason for being for PNDA – an open source big data platform that can foster an ecosystem of innovative analytics applications while also supporting the next generation of reactive network services.”<br>
+&nbsp;&mdash;<i>David Ward, SVP, Chief Architect &amp; CTO, Cisco</i></p>
+
+<p><b>Deepfield</b><br>
+“At Deepfield, we have experienced a rapid adoption of our big data analytics platform to replace siloed solutions such as traffic engineering, service assurance, network forensics, and DDOS. Our customers have recognized that big data analytics is not just for replacing legacy solutions, but also it is required to enable next generation OSS/BSS, orchestration, control, automation and NFV deployments. Recognizing the importance of this technology, Cisco has made a valuable open source contribution, namely PNDA, to help build the ecosystem and accelerate the development of new big data applications.”<br>
+&nbsp;&mdash;<i>Jeff Bazar, Chief Strategy Officer, Deepfield</i></p>
+
+<p><b>FRINX</b><br>
+“PNDA combines big data architecture, tools and techniques to deliver network information at virtually unlimited scale to operators and customers alike. FRINX believes PNDA is the logical next step that allows network operators to close the loop between acquiring data from the network, running analytics to mine high value information and finally feeding policy back into the network to optimize for customer experience and cost.”<br>
+&nbsp;&mdash;<i>Tomas Olvecky, Technical Leader, FRINX</i></p>
+
+<p><b>Intersec</b><br>
+“We believe PNDA will boost the ecosystem for network analytics, creating the conditions for open platforms on which external applications will be higher performance and easier to deploy. Thanks to its efficient API, PNDA opens the way for analytics applications based on location data, within an NFV architecture. Intersec’s extensive experience in big data analytics induces us to promote this type of initiative, and we’re glad to join this project and provide full compatibility with the framework.”<br>
+&nbsp;&mdash;<i>Jean-Marc Coïc, CTO &amp; Co-Founder, Intersec</i></p>
+
+<p><b>Moogsoft</b><br>
+“Almost every company we talk to, whether service provider or digital enterprise, has a strategy and plan to use open source toolkits for aggregation, data warehousing, and big data analytics. All of these companies are duplicating the same effort, experiencing and repeating the same learning processes, and delivering similar resulting solutions. The PNDA initiative offers a packaged approach, using the best of breed open source technologies that everyone is already committed to, helping short circuit the process to value and reducing the resource effort involved in architecture, implementation and support. For Moogsoft and our peers in the service assurance community, PNDA offers a single point of data that we can subscribe to, reducing our time to demonstrate value and reducing our need to instrument custom integrations. PNDA is a win-win for both vendor and end-user communities.”<br>
+&nbsp;&mdash;<i>Mike Silvey, Executive Vice President, Moogsoft</i></p>
+
+<p><b>NGENA (Next Generation Enterprise Network Alliance)</b><br>
+"NGENA offers high quality SLA-guaranteed Network Services on a Global Scale. PNDA enables NGENA to process huge amounts of data providing real-time analytics-based insight across virtual and physical infrastructure and services for pro-active network monitoring and SLA management."<br>
+&nbsp;&mdash;<i>Jörg Gimmler, VP, Delivery, NGENA</i></p>
+
+<p><b>Ontology</b><br>
+“It is essential - not just for the virtualized, automated future, but also for the journey to get there - that modern data technologies are applied to the OSS and BSS. Ontology’s customers are very clear in telling us that they need this kind of innovation right now, in order to make the immediate move to service-centric operations and ultimately on to genuine service agility. They see real-time inventory in conjunction with network analytics as the central spine of this transition, and PNDA is an open and accessible platform that delivers concrete, usable analytics functionality from which CSPs can derive real value. We look forward to being part of the ecosystem it has seeded.”<br>
+&nbsp;&mdash;<i>Leo Zancani, CTO &amp; Co-Founder, Ontology</i></p>
+
+<p><b>OpenDataSoft</b><br>
+“As a provider of a turnkey solution which enables smart cities to easily manage the opening and sharing of their data, OpenDataSoft is glad to have data sourcing from the PNDA platform. We’ve integrated a built-in PNDA connector, which will allow our customers to benefit from well-prepared and clean data coming out of a wide range of sensors, and make IoT data easily reusable by developers through our standardized open APIs. In the end, it represents an end-to-end data management framework from raw data capture to end-users applications.”<br>
+&nbsp;&mdash;<i>Jean-Marc Lazard, Founder &amp; CEO, OpenDataSoft</i></p>
+
+<p><b>Tupl</b><br>
+“CSPs struggle to maintain the balance between customer experience and the cost required to deploy and operate their networks. The root cause lies in the existing siloed, non-scalable systems and tools not able to cope with the immense amount of complex raw data; many operational tasks are still manual, time consuming and expensive. All our customers recognize this pain, and agree that answer lies in leveraging open source big data technologies and platforms. Tupl is looking forward to contributing to PNDA, and serving our customers by solving their operational pain points with actionable, automated insights. TuplOS and its extensive app portfolio, such as our Automatic Customer Complaint Resolution, are compatible with PNDA and further extends the platform to deliver specific use cases in the telecom space.”<br>
+&nbsp;&mdash;<i>Petri Hautakangas, CEO, Tupl</i></p>
+<br>
+
+<p><b>About PNDA</b></p>
+<p>PNDA is a Linux Foundation Project. Founded in 2000, The Linux Foundation today provides tools, training and events to scale any open source project, which together deliver an economic impact not achievable by any one company. More information can be found at <a href="https://www.linuxfoundation.org/projects">www.linuxfoundation.org/projects</a>.</p>
+<p>For more information about PNDA, and to learn how to participate in the project, please visit <a href="http://pnda.io/">pnda.io</a>.</p>
+<br>
+<p><b>About The Linux Foundation</b></p>
+<p>The Linux Foundation is the organization of choice for the world’s top developers and companies to build ecosystems that accelerate open technology development and commercial adoption. Together with the worldwide open source community, it is solving the hardest technology problems by creating the largest shared technology investment in history. Founded in 2000, The Linux Foundation today provides tools, training and events to scale any open source project, which together deliver an economic impact not achievable by any one company. More information can be found at<a href="http://www.linuxfoundation.org/"> www.linuxfoundation.org</a>.</p>
+
+<p><i>The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">trademark usage page</a>. Linux is a registered trademark of Linus Torvalds.</i></p>
+<br>
+<p><b>Media Contact</b></p>
+<p>Whitney True<br>
+The Linux Foundation<br>
+<a href="mailto:pr@linuxfoundation.org">pr@linuxfoundation.org</a>
+</p>

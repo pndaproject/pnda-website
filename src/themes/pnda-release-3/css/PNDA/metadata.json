@@ -1,0 +1,10 @@
+{
+	"name": "PNDA",
+	"description": "PNDA theme",
+	"version": "1.0",
+	"date": "2016-06-29",
+	"author": "PNDA team",
+	"author_uri": "http://pnda.io",
+	"license": "GPLv2",
+	"min_q2a": "1.7"
+}
