@@ -29,4 +29,4 @@ If you want to have more information about the PNDA roadmap and plan, see the [P
 If you need support, please send your questions to the pnda-users group rather than filing a GitHub issue. 
 
 ## Project Governance
-As a Linux Foundation Collaboration Project PNDA is not controlled by any single company.  A copy of the project charter is published [here](/docs/governance.md)
+As a Linux Foundation Collaboration Project PNDA is not controlled by any single company.  A copy of the project charter is published [here](./../guide/#community)
