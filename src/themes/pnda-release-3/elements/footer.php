@@ -6,7 +6,6 @@
             <div class="copyright-body">
                 @s(brandfooter)
             </div>
-            <a href="http://www.linuxfoundation.org" title="Linux Foundation" class="copyright-logo">Linux Foundation</a>
         </div>
     </div>
 
