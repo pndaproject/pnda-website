@@ -145,51 +145,35 @@ link-3-icon: fa fa-book
 
 -
 
-link-4-title: GitHub
+link-4-title: Community
 
 -
 
-link-4-detail: All the PNDA source code is hosted on GitHub. Fork the project to get started contributing! 
+link-4-detail: Get all informations and resources of the PNDA community (GitHub, mailing lists...).
 
 -
 
-link-4-link: github/
+link-4-link: community/
 
 -
 
-link-4-icon: fa fa-github
+link-4-icon: fa fa-users
 
 -
 
-link-5-title: Q&A
+link-5-title: Guide
 
 -
 
-link-5-detail: Got a question about setting up and using PNDA? Ask it here and get answers from the PNDA team.
+link-5-detail: Learn how to deploy PNDA, get data flowing in, explore data with notebooks, and develop analytics apps.
 
 -
 
-link-5-link: qa/
+link-5-link: guide/
 
 -
 
-link-5-icon: fa fa-question
-
--
-
-link-6-title: Guide
-
--
-
-link-6-detail: Learn how to deploy PNDA, get data flowing in, explore data with notebooks, and develop analytics apps.
-
--
-
-link-6-link: guide/
-
--
-
-link-6-icon: fa fa-book
+link-5-icon: fa fa-book
 
 -
 

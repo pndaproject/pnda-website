@@ -27,11 +27,7 @@ pndalogo: /pages/images/logo.png
 
 brandfooter:
 
-- © 2017 PNDA a Linux Foundation Collaborative Project. All Rights Reserved.
-- Linux Foundation is a registered trademark of The Linux Foundation.
-- Linux is a registered <a href="http://www.linuxfoundation.org/programs/legal/trademark">trademark</a> of Linus Torvalds.
-- Please see our <a href="http://www.linuxfoundation.org/privacy">privacy policy</a> and <a href="http://www.linuxfoundation.org/terms">terms of use</a>.
-
--
+- Copyright © 2018 PNDA Project a Series of LF Projects, LLC
+- For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>
 
 email: info@pnda.io
